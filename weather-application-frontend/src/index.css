@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.6);
+font-family: 'Courier New', Courier, monospace;
+}
+
