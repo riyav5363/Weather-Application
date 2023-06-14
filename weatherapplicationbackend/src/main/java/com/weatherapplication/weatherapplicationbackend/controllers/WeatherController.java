@@ -13,7 +13,7 @@ public class WeatherController {
     //@Value("${openweather.api.key}") String apiKey
     @GetMapping("/{city}")
     public ResponseEntity<?> getWeatherData(@PathVariable String city) {
-        String apiKey = "5636ae91b007f1f0fcb4251935d06835";
+        String apiKey = "";  //put your key here which you will get from open weather map api website
         String apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey +"&units=metric";
 
         RestTemplate restTemplate = new RestTemplate();
